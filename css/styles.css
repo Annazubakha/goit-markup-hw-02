@@ -9,7 +9,7 @@
 }
 body {
   font-family: var(--primery-font);
-  color: var(--primery-text-color);
+  color: var(--secondary-text-color);
   background-color: var(--primery-white-color);
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -28,8 +28,8 @@ h6 {
 }
 
 .logo-ithem {
-  color: var(--primery-botton-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+  color: var(--primery-text-color);
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -37,40 +37,48 @@ h6 {
   text-transform: uppercase;
 }
 .nav-logo {
-  color: var(--primery-text-color);
-  font-family: Raleway;
+  color: var(--primery-botton-color);
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.nav-link {
+.page-nav-link {
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--primery-text-color);
 }
-.nav-link:hover,
-.nav-link:focus {
+.page-nav-link:hover,
+.page-nav-link:focus {
   color: var(--primery-botton-color);
 }
+.address {
+  font-style: normal;
+}
+
 .address-list-mail,
 .address-list-tel {
   font-size: 16px;
+  font-style: normal;
   color: var(--secondary-text-color);
 }
 .address-list-mail:hover,
 .address-list-mail:focus {
-  color: var(--primery-botton-color);
+  color: var(--secondary-botton-color);
 }
 
 .address-list-tel:hover,
 .address-list-tel:focus {
-  color: var(--primery-botton-color);
+  color: var(--secondary-botton-color);
 }
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
+
 .hero {
   background-color: var(--primery-text-color);
 }
@@ -84,17 +92,24 @@ ul {
 }
 
 .button {
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.64px;
+  line-height: 1.5;
   color: var(--primery-white-color);
   background-color: var(--primery-botton-color);
+}
+.button:hover,
+.button:focus {
+  color: var(--secondary-botton-color);
+  cursor: pointer;
 }
 
 .features-list-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1/2;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 .features-list-text {
@@ -107,6 +122,7 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
+  line-height: 1.2;
   text-transform: capitalize;
   text-align: center;
 }
@@ -118,8 +134,9 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
   text-align: center;
+  color: var(--primery-text-color);
 }
 .team-list-text {
   font-size: 16px;
@@ -134,7 +151,7 @@ ul {
 }
 .footer-logo {
   color: var(--primery-cloud-color);
-  font-family: Raleway;
+  font-family: "Raleway" sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -159,6 +176,7 @@ ul {
   letter-spacing: 0.64px;
   color: var(--primery-botton-color);
   background-color: var(--primery-cloud-color);
+  cursor: pointer;
 }
 .button-list-ithem:hover,
 .button-list-ithem:focus {

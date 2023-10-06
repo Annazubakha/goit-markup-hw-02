@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -15,19 +17,19 @@
   <body>
     <!--Website header-->
     <header class="header">
-      <nav class="nav">
+      <nav class="nav list">
         <a href="./index.html" class="nav-logo link">
-          <span class="logo-ithem">Web</span>Studio</a
+          Web<span class="logo-ithem">Studio</span></a
         >
         <ul class="page-nav-list">
-          <li><a href="./index.html" class="nav-link link">Studio</a></li>
+          <li><a href="./index.html" class="page-nav-link link">Studio</a></li>
           <li>
-            <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+            <a href="./portfolio.html" class="page-nav-link link">Portfolio</a>
           </li>
-          <li><a href="" class="nav-link link">Contacts</a></li>
+          <li><a href="" class="page-nav-link link">Contacts</a></li>
         </ul>
       </nav>
-      <address class="address">
+      <address class="address list">
         <ul class="address-list">
           <li>
             <a class="address-list-mail link" href="mailto:info@devstudio.com"
@@ -47,13 +49,11 @@
       <!--Section 1-->
       <section class="hero">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        <button class="button" type="button" cursor="pointer">
-          Order Service
-        </button>
+        <button class="button" type="button">Order Service</button>
       </section>
 
       <!--Section 2-->
-      <section class="features">
+      <section class="features list">
         <h2 hidden>Features</h2>
         <ul class="features-list">
           <li>
@@ -88,7 +88,7 @@
       </section>
 
       <!--Section 3-->
-      <section class="work">
+      <section class="work list">
         <h2 class="work-title">What are we doing</h2>
         <ul>
           <li><img src="./images/img1.jpg" alt="Laptop" width="360" /></li>
@@ -104,7 +104,7 @@
       </section>
 
       <!--Section 4-->
-      <section class="team">
+      <section class="team list">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li>
@@ -113,7 +113,7 @@
               alt="Mark Guerrero"
               width="264"
             />
-            <h class="team-list-title">Mark Guerrero</h>
+            <h3 class="team-list-title">Mark Guerrero</h3>
             <p class="team-list-text">Product Designer</p>
           </li>
           <li>
@@ -143,8 +143,8 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="link" href="./index.html" class="footer-logo">
-        <span class="logo-ithem">Web</span>Studio</a
+      <a href="./index.html" class="footer-logo link">
+        Web<span class="logo-ithem">Studio</span>></a
       >
       <p class="footer-text">
         Increase the flow of customers and sales for your business with digital
