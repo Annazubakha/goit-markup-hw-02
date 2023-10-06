@@ -68,13 +68,8 @@ h6 {
   font-style: normal;
   color: var(--secondary-text-color);
 }
-.address-list-mail:hover,
-.address-list-mail:focus {
-  color: var(--secondary-botton-color);
-}
-
-.address-list-tel:hover,
-.address-list-tel:focus {
+.address-list:hover,
+.address-list:focus {
   color: var(--secondary-botton-color);
 }
 
