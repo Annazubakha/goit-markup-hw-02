@@ -62,8 +62,8 @@ h6 {
 .address {
   font-style: normal;
 }
-.address-list-mail,
-.address-list-tel {
+.address-list,
+.address-list {
   font-size: 16px;
   font-style: normal;
   color: var(--secondary-text-color);
