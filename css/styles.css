@@ -28,6 +28,7 @@ h6 {
 .list {
   list-style: none;
   background-color: var(--primery-white-color);
+  color: var(--secondary-text-color);
 }
 /* Website header */
 .logo-ithem {
